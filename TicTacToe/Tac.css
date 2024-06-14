@@ -1,0 +1,95 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    background-color: #74512d;
+    text-align: center;
+
+}
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#f8f4e1;
+    font-size: 50px;
+
+    /* text-decoration: dotted; */
+    /* box-shadow: 0 0 1px 1px black; */
+}
+.container{
+    height: 70vh;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    align-items: center;
+    gap:1.5vmin;
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:1.5vmin;
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border:none;
+    box-shadow: 0 0 20px 20px rgba(0, 0, 0, 0.1);
+    font-size: 8vmin;
+    color:#543310;
+    background-color: #e0cfbe;
+}
+
+.box:hover{
+    cursor: pointer;
+    box-shadow: 0 0 8px 5px #f8f4e1;
+}
+#reset{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color:#de8526;
+    border-radius: 20px;
+    font-weight: bold;
+    box-shadow:0 0 5px 5px rgb(255, 255, 255);
+}
+#reset:hover{
+    cursor: pointer;
+    box-shadow: 0 0 2px 2px black;
+    background-color: white;
+    color:black;
+}
+#new{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color:#de8526;
+    border-radius: 20px;
+    font-weight: bold;
+    box-shadow:0 0 5px 5px rgb(255, 255, 255);
+}
+#new:hover{
+    cursor: pointer;
+    box-shadow: 0 0 2px 2px black;
+    background-color: white;
+    color:black;
+}
+.msgContainer{
+    height: 100vmin;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#msg{
+    font-size: 11vmin;
+    color:#ffffc7;
+    font-family: 'Times New Roman', Times, serif;
+}
+.hide{
+    display: none;
+}
